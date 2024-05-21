@@ -1,0 +1,109 @@
+:root {
+
+    --bg1: #2d2a2b;
+    --bg2: rgb(44, 42, 42);
+    --brand: #250047;
+    --whit: rgb(235, 235, 235);
+    --p: rgb(16, 150, 150);
+    --body: rgb(190, 30, 30);
+}   
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.616), rgba(44, 42, 42, 0.726)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQ6q7AeC0RP7diMO8ZhF3gzfj2ALnmz1QiR1dQ7wgNpg0O2DbybL77p0E&s=10.jpg") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    border-radius: 3;
+    font-weight: 800;
+}
+
+.btn-brand {
+    background-color: red ;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #000;
+    border-color: purple;
+}
+
+.row {
+    text-align: justify;
+}
+
+.icon-img-box {
+    width: 40%;
+}
+
+.card {
+    transition: background-color 0.2s, 0.2s;
+}
+
+.card:hover {
+    background-color: #6d3ba3;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #fff
+}
+
+.btn-outlined-brand {
+    color: peru;
+    background-color: transparent;
+    border-color: peru;
+}
+
+.btn-outlined-brand:hover {
+    background-color: peru;
+}
+
+#about {
+
+    background: linear-gradient(#ffffff, #d6d6d6, #c8c8c8, #aeaeae, #686868);
+
+}
+#cta {
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.616), rgba(44, 42, 42, 0.726)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-SHAGN61Mh6voXeUgQthwe-RReKkLDz6FpfaelTlwvbc6pQoeojf7Xjf&s=10.jpg") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 70vh;
+}
+
+#reviews {
+    background-color: var(--white);
+}
+
+.testimonials {
+    background-color: var(--bg2);
+    padding: 30px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 50%;
+    height: 65px;
+}
+
+#reviews {
+    color: var(--brand);
+}
